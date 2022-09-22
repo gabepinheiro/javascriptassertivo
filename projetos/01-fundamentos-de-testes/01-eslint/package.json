@@ -1,0 +1,17 @@
+{
+  "name": "01-eslint",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "yarn eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "^2.25.2",
+    "prettier": "2.7.1"
+  }
+}
